@@ -1,51 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/output.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css'
+        integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=='
+        crossorigin='anonymous' />
     <title>Document</title>
-  </head>
-  <body class="">
-    <nav
-      class="bg-primary-blue flex gap-60 items-center pt-4 w-full px-32 pb-4 fixed"
-    >
-      <div>
-        <img class="w-32" src="/src/images/Asset-2-smtp-allwhite.png" alt="" />
-      </div>
-      <div class="flex gap-5 items-center">
+</head>
+
+<body>
+    <nav class="bg-primary-blue flex gap-60 items-center pt-4 w-full px-32 pb-4 fixed">
         <div>
-          <ul class="text-gray-50 flex items-center gap-10">
-            <li><a href="#">pricing</a></li>
-            <li><a href="#">solutions</a></li>
-            <li><a href="#">transactional Email</a></li>
-            <li><a href="#">Email API</a></li>
-            <li><a href="#">Resources</a></li>
-          </ul>
+            <img class="w-32" src="/src/images/Asset-2-smtp-allwhite.png" alt="" />
         </div>
-        <div>
-          <ul class="flex gap-10 items-center">
-            <li class="text-white"><a href="#">login</a></li>
-            <li class="px-12 py-3 bg-white"><a href="#">sign up</a></li>
-          </ul>
+        <div class="flex gap-5 items-center">
+            <div>
+                <ul class="text-gray-50 flex items-center gap-10">
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">solutions</a></li>
+                    <li><a href="#">transactional Email</a></li>
+                    <li><a href="#">Email API</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex gap-10 items-center">
+                    <li class="text-white"><a href="#">login</a></li>
+                    <li class="px-12 py-3 bg-white"><a href="#">sign up</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    <div class="h-screen bg-primary-blue text-white p-32 flex justify-between items-center">
-      <div class="w-[450px] flex flex-col gap-8">
-        <p class="font-sans text-[14px] text-button-color">> TRANSACTIONAL AND EMAIL RELAY API</p>
-        <p class="font-sans font-semibold text-[40px] leading-10">Exceptional Email Deliverability</p>
-        <p class="font-sans font-normal text-[16px] ">
-          We are the industry leader in deliverability. Experience SMTP.com for
-          yourself to see why our customers love us, and why those who leave
-          often come back.
-        </p> 
-        <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue">Choose a plan</button>
-      </div>
-    
-      <div>
-        <img src="/src/images/relay and email delivery.png" alt="">
-      </div>
+    <div class="h-auto bg-primary-blue text-white p-32 pt-[200px] flex justify-between">
+        <div class="w-[450px] flex flex-col gap-8">
+            <p class="font-sans text-[14px] text-button-color">
+                > TRANSACTIONAL AND EMAIL RELAY API
+            </p>
+            <p class="font-sans font-semibold text-[40px] leading-10">
+                Exceptional Email Deliverability
+            </p>
+            <p class="font-sans font-normal text-[16px]">
+                We are the industry leader in deliverability. Experience SMTP.com for
+                yourself to see why our customers love us, and why those who leave
+                often come back.
+            </p>
+            <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue">
+                Choose a plan
+            </button>
+        </div>
+
+        <div>
+            <img src="/src/images/relay and email delivery.png" alt="" />
+        </div>
     </div>
-  </body>
+    <div class="bg-white h-screen pt-[80px] justify-center flex flex-col">
+        <div class="px-64 flex flex-col justify-center text-center">
+            <p class="font-sans text-[14px] text-button-color">> SERVICES</p>
+            <p class="font-sans font-semibold text-[35px] mb-[20px]">
+                Your complete email delivery suite.
+            </p>
+            <p class="font-sans text-[16px] mb-12 w-[700px] mx-auto">
+                At SMTP, our goal is to get your emails into subscriber inboxes. Aside
+                from maintaining an impeccable IP reputation among ISPs and offering
+                you the absolute best in email sending, we have the in-house experts
+                to answer all of your questions.
+            </p>
+        </div>
+        <div>
+            <div class="flex gap-9 mx-8 justify-center">
+                <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+                    <img class="w-[60px] pt-5" src="/src/images/hand and tick.png" alt="" />
+                    <p class="font-sans text-sm my-2 text-primary-blue">
+                        EFFORTLESS ONBOARDING
+                    </p>
+                    <p class="font-sans text-sm leading-6 pb-5">
+                        It's just a few quick steps from sign up to your first send.
+                        You'll be sending your first email within minutes.
+                    </p>
+                </div>
+
+                <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+                    <img class="w-[60px] pt-5" src="/src/images/file distribute.png" alt="" />
+                    <p class="font-sans text-sm my-2 text-primary-blue">
+                        SCALABLE INFRASTRUCTURE
+                    </p>
+                    <p class="font-sans text-sm leading-6 pb-5">
+                        From a few thousand emails per month to billions, SMTP scales
+                        effortlessly for timely reliable sending.
+                    </p>
+                </div>
+
+                <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+                    <img class="w-[60px] pt-5" src="/src/images/box.png" alt="" />
+                    <p class="font-sans text-sm my-2 text-primary-blue">
+                        INDUSTRY-LEADING DELIVERY
+                    </p>
+                    <p class="font-sans text-sm leading-6 pb-5">
+                        For over two decades, businesses have relied on our unmatched
+                        deliverability rates and reputation among mailbox providers.
+                    </p>
+                </div>
+            </div>
+            <p class="text-center text-lg mb-[80px]">
+                All backed by expert support for our customers worldwide, regardless
+                of your pricing plan.
+            </p>
+        </div>
+    </div>
+    <div class="h-auto bg-primary-blue text-white px-32 pt-[150px] flex gap-[100px]">
+        <div>
+            <div>
+                <p class="font-sans text-4xl font-extrabold pb-[20px]">
+                    SMTP Reputation Defender
+                </p>
+            </div>
+            <p class="pb-[40px] w-[500px]">
+                Reputation Defender proactively monitors your email list health and
+                safeguards your domain and IP reputation by suppressing invalid emails
+                addresses before you send. This ensures your delivery rates and inbox
+                placement incrementally gets better over time.
+            </p>
+            <div>
+                <div class="flex items-center gap-4 pb-7 w-[600px]">
+                    <div class="flex items-center gap-2">
+                        <img class="w-5" src="/src/images/bullet.png" alt="" />
+                        <span>Detailed reporting</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img class="w-5" src="/src/images/bullet.png" alt="" />
+                        <span>Proactive monitoring</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img class="w-5" src="/src/images/bullet.png" alt="" />
+                        <span>No integration needed</span>
+                    </div>
+                </div>
+            </div>
+            <p class="w-[400px] pb-9">
+                REPUTATION DEFENDER IS AN OPTIONAL ADD ON FOR ALL SMTP PLANS
+            </p>
+            <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue">
+                See plans
+            </button>
+        </div>
+        <div>
+            <img class="w-[2000px]" src="/src/images/smpt reputation.png" alt="" />
+        </div>
+    </div>
+    <div class="h-auto px-32 flex gap-40 items-center pt-[80px] pb-[80px]">
+        <div>
+            <p class="font-extrabold text-4xl pt-[80px] pb-8 text-primary-blue">
+                High Volume Sender?
+            </p>
+            <p class="pb-8 font-bold">
+                SMTP has a purpose-built solution just for you
+            </p>
+            <p class="pb-8 w-[550px]">
+                The needs of our high volume senders are unique. We'll set you up with
+                a rapidly scalable, on-demand solution for your sending requirements.
+            </p>
+            <p class="pb-8 w-[550px]">
+                As with all of our customers, high volume senders benefit from SMTP's
+                excellent deliverability and 20+ years of email expertise.
+            </p>
+        </div>
+
+        <div>
+            <img class="w-96" src="/src/images/visual improvement.png" alt="" />
+        </div>
+    </div>
+    <div class="grid grid-cols-3 grid-rows-1 px-32 gap-20 pb-[80px]">
+        <div>
+            <p class="pb-5 text-primary-blue font-semibold">A DEDICATED PLATFORM</p>
+            <p>
+                Each customer is given their own dedicated instance of SMTP in a
+                private and secure cloud environment.
+            </p>
+        </div>
+        <div>
+            <p class="pb-5 text-primary-blue font-semibold">FLEXIBILITY</p>
+            <p>
+                Volume can be scaled up or down quickly to meet sending needs due to
+                seasonality or changing business conditions.
+            </p>
+        </div>
+        <div>
+            <p class="pb-5 text-primary-blue font-semibold">REPUTATION DEFENDER</p>
+            <p>
+                In app, automated email address validation protecting domain and
+                sending reputation with ISPs
+            </p>
+        </div>
+    </div>
+    <p class="text-center text-2xl font-thin px-32 w-[1100px] mx-auto pb-16">
+        Each high-volume sender receives a dedicated account manager, a tailored
+        IP-warming and volume ramp-up plan, and access to expert support.
+    </p>
+    <div class="pb-[100px]">
+        <button class="font-sans text-[18px] bg-primary-blue px-8 py-4 self-start text-white flex mx-auto">
+            Get a custom quote
+        </button>
+    </div>
+    <div class="h-auto bg-light-blue pb-[80px]">
+        <p class="font-extrabold py-[80px] px-32 text-center text-4xl text-primary-blue">
+            Use SMTP for all of your email sending needs.
+        </p>
+        <div class="grid grid-cols-3 grid-rows-2 px-32 gap-10">
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/notification.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">NOTIFICATIONS</p>
+                    <p class="w-56">
+                        Send follow up emails in sync with web or mobile service
+                        notifications.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/man plus.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">REGISTRATION EMAILS</p>
+                    <p class="w-56">
+                        Increase sign ups by reducing opt in confirmation latency and
+                        improve onboarding metrics.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/man crest.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">AUTHENTICATION EMAILS</p>
+                    <p class="w-56">
+                        Keep users safe by sending authentication emails into inboxes on
+                        time.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/file record.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">ORDER CONFIRMATIONS</p>
+                    <p class="w-56">
+                        Build brand value and credibility by sending order and billing
+                        details on time.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/man locate.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">STATUS UPDATES</p>
+                    <p class="w-56">
+                        Bring users back by sending on-time status updates on their
+                        account and product usage.
+                    </p>
+                </div>
+            </div>
+            <div class="flex gap-4 items-start">
+                <img class="w-16" src="/src/images/pen write.svg" alt="" />
+                <div>
+                    <p class="pb-4 text-primary-blue">POLICY CHANGE EMAILS</p>
+                    <p class="w-56">
+                        Ensure critical policy change information emails get in front of
+                        your users.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="pt-[80px]">
+            <button class="font-sans text-[18px] bg-primary-blue px-8 py-4 self-start text-white flex mx-auto">
+                Sign Up
+            </button>
+        </div>
+    </div>
+    <div class="h-screen ">
+        <p class="text-center font-extrabold text-4xl pt-[100px] text-primary-blue">
+            Why Businesses Trust SMTP
+        </p>
+        <div class="grid grid-cols-3 grid-rows-2 px-32 gap-3">
+            <div class="pt-[80px]">
+                <div class="text-xl text-primary-blue pb-4">"Always delivers"</div>
+                <div class="pr-10 text-lg">
+                    It is easy to set up, secure and gives me analytics that helps me
+                    keep my lists up to date. It just works.
+                </div>
+                <div class="flex mx-auto gap-10 pt-4">
+                    <div class="text-lg">G2 Crowd verified review</div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-[80px]">
+                <div class="text-xl text-primary-blue pb-4">"Great results"</div>
+                <div class="pr-10 text-lg">
+                    Deliverability is top of the line. Their servers seem to
+                    consistently stay off (ISP) blacklists. Great deliverability.
+                </div>
+                <div class="flex mx-auto gap-10 pt-4">
+                    <div class="text-lg">G2 Crowd verified review</div>
+                    <div class="flex items-center space-x-1 text-lg">
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-gray-300 dark:text-gray-500" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-[80px]">
+                <div class="text-xl text-primary-blue pb-4">
+                    "Best infrastructure"
+                </div>
+                <div class="pr-10 text-lg">
+                    Very good infrastructure with white-listing dedicated sending IPs
+                    and in-depth reporting. Great service.
+                </div>
+                <div class="flex mx-auto gap-10 pt-4">
+                    <div class="text-lg">G2 Crowd verified review</div>
+                    <div class="flex items-center space-x-1 text-lg">
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-button-color" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                        <svg class="w-4 h-4 text-gray-300 dark:text-gray-500" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                            <path
+                                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-[80px]">
+                There was as a marked improvement in our email deliverability with
+                SMTP, and we scaled our email marketing program from under 1 million
+                to over 5 million emails a month while preserving sender reputation.
+            </div>
+            <div class="pt-[80px]">
+                What an improved customer service experience! I’ve been with you guys
+                for several years now, and today’s help was speedy via both online
+                chat and telephone. I’m relieved and happy!
+            </div>
+            <div class="pt-[80px]">
+                Service is fast, friendly and helpful. They’re always willing to work
+                with us to resolve any issues or improve our results. They help us
+                improve our deliverability and make sure our emails get to inboxes.
+            </div>
+        </div>
+    </div>
+    <div class="h-auto bg-primary-blue px-32 flex-row mx-auto">
+        <p class="pt-[80px] text-white text-center text-4xl font-extrabold">
+            Purchase an SMTP Email Relay plan
+        </p>
+        <p class="pt-[40px] pb-[40px] text-center text-button-color">
+            GET STARTED WITH 50,000 EMAILS FOR $25/ MO.
+        </p>
+        <div class="pb-[40px]">
+            <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue flex mx-auto">
+                Purchase
+            </button>
+        </div>
+        <div class="pb-[80px]">
+            <button class="flex mx-auto text-white underline underline-offset-8 decoration-4">
+                Or view all plans
+            </button>
+        </div>
+    </div>
+</body>
+
 </html>
