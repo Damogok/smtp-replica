@@ -709,6 +709,18 @@ video {
   width: 7rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
 .snap-center {
   scroll-snap-align: center;
 }
@@ -1159,6 +1171,22 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pt-\[px\] {
+  padding-top: px;
+}
+
+.pt-\[6px\] {
+  padding-top: 6px;
+}
+
+.pt-\[69px\] {
+  padding-top: 69px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .text-center {
