@@ -16,7 +16,8 @@
 </head>
 
 <body class="font-sans">
-  <nav class="bg-primary-blue flex gap-60 items-center pt-4 w-full px-32 pb-4 fixed">
+  
+  <nav class="bg-primary-blue md:flex hidden gap-60 items-center pt-4 w-full px-32 pb-4 fixed">
     <div>
       <img class="w-32" src="images/Asset-2-smtp-allwhite.png" alt="" />
     </div>
@@ -38,35 +39,37 @@
       </div>
     </div>
   </nav>
-  <div class="h-auto bg-primary-blue text-white p-32 pt-[200px] flex justify-between">
-    <div class="w-[450px] flex flex-col gap-8">
-      <p class="font-sans text-[14px] text-button-color">
+  <div
+    class="h-auto bg-primary-blue text-white md:px-32 px-4 md:pb-32 pb-6 md:pt-[200px] flex justify-between md:flex-row flex-col gap-10">
+    <div class="md:w-[450px] flex flex-col gap-8">
+      <p class="font-sans md:text-[14px] text-button-color text-[12px]">
         > TRANSACTIONAL AND EMAIL RELAY API
       </p>
-      <p class="font-sans font-semibold text-[40px] leading-10">
+      <p class="font-sans font-semibold md:text-[40px] leading-10 text-[32px] md:w-full w-96">
         Exceptional Email Deliverability
       </p>
-      <p class="font-sans font-normal text-[16px]">
+      <p class="font-sans font-normal md:text-[16px] text-[12px] md:w-full w-72">
         We are the industry leader in deliverability. Experience SMTP.com for
         yourself to see why our customers love us, and why those who leave
         often come back.
       </p>
-      <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue">
+      <button
+        class="font-sans md:text-[18px] text-[12px] bg-button-color md:px-8 md:py-4 px-4 py-2 self-start text-primary-blue">
         Choose a plan
       </button>
     </div>
 
     <div>
-      <img src="images/relay and email delivery.png" alt="" />
+      <img class="md:w-auto w-72" src="images/relay and email delivery.png" alt="" />
     </div>
   </div>
-  <div class="bg-white h-screen pt-[80px] justify-center flex flex-col">
-    <div class="px-64 flex flex-col justify-center text-center">
-      <p class="font-sans text-[14px] text-button-color">> SERVICES</p>
-      <p class="font-sans font-semibold text-[35px] mb-[20px]">
+  <div class="bg-white h-auto md:pt-[80px] pt-8 justify-center flex flex-col">
+    <div class="md:px-64 px-6 flex flex-col justify-center text-center">
+      <p class="font-sans md:text-[14px] text-[12px] text-button-color">> SERVICES</p>
+      <p class="font-sans font-semibold md:text-[35px] text-[28px] mb-[20px]">
         Your complete email delivery suite.
       </p>
-      <p class="font-sans text-[16px] mb-12 w-[700px] mx-auto">
+      <p class="font-sans text-[16px] mb-12 md:w-[700px] w-96 mx-auto">
         At SMTP, our goal is to get your emails into subscriber inboxes. Aside
         from maintaining an impeccable IP reputation among ISPs and offering
         you the absolute best in email sending, we have the in-house experts
@@ -74,8 +77,8 @@
       </p>
     </div>
     <div>
-      <div class="flex gap-9 mx-8 justify-center">
-        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+      <div class="flex md:flex-row flex-col md:gap-9 mx-8 justify-center">
+        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 md:mb-12 mb-6">
           <img class="w-[60px] pt-5" src="images/hand and tick.png" alt="" />
           <p class="font-sans text-sm my-2 text-primary-blue">
             EFFORTLESS ONBOARDING
@@ -86,7 +89,7 @@
           </p>
         </div>
 
-        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 md:mb-12 mb-6">
           <img class="w-[60px] pt-5" src="images/file distribute.png" alt="" />
           <p class="font-sans text-sm my-2 text-primary-blue">
             SCALABLE INFRASTRUCTURE
@@ -97,7 +100,7 @@
           </p>
         </div>
 
-        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 mb-12">
+        <div class="border-[3px] border-button-color w-[350px] p-[15px] flex flex-col gap-4 md:mb-12 mb-8">
           <img class="w-[60px] pt-5" src="images/box.png" alt="" />
           <p class="font-sans text-sm my-2 text-primary-blue">
             INDUSTRY-LEADING DELIVERY
@@ -114,21 +117,21 @@
       </p>
     </div>
   </div>
-  <div class="h-auto bg-primary-blue text-white px-32 pt-[150px] flex gap-[100px]">
+  <div class="h-auto bg-primary-blue text-white md:px-32 px-6 md:pt-[100px] pt-8 md:flex gap-[100px] md:pb-16 pb-8 ">
     <div>
       <div>
-        <p class="font-sans text-4xl font-extrabold pb-[20px]">
+        <p class="font-sans text-4xl font-extrabold pb-[20px] md:w-full w-96">
           SMTP Reputation Defender
         </p>
       </div>
-      <p class="pb-[40px] w-[500px]">
+      <p class="pb-[40px] md:w-[500px] w-96">
         Reputation Defender proactively monitors your email list health and
         safeguards your domain and IP reputation by suppressing invalid emails
         addresses before you send. This ensures your delivery rates and inbox
         placement incrementally gets better over time.
       </p>
       <div>
-        <div class="flex items-center gap-4 pb-7 w-[600px]">
+        <div class="flex gap-4 md:pb-7 pb-7 md:w-[600px] w-96">
           <div class="flex items-center gap-2">
             <img class="w-5" src="images/bullet.png" alt="" />
             <span>Detailed reporting</span>
@@ -154,19 +157,19 @@
       <img class="w-[2000px]" src="images/smpt reputation.png" alt="" />
     </div>
   </div>
-  <div class="h-auto px-32 flex gap-40 items-center pt-[80px] pb-[80px]">
+  <div class="h-auto md:px-32 px-4 flex gap-40 items-center md:pt-[80px] pt-10 pb-[80px]">
     <div>
-      <p class="font-extrabold text-4xl pt-[80px] pb-8 text-primary-blue">
+      <p class="font-extrabold text-4xl md:pt-[80px] pb-8 text-primary-blue">
         High Volume Sender?
       </p>
       <p class="pb-8 font-bold">
         SMTP has a purpose-built solution just for you
       </p>
-      <p class="pb-8 w-[550px]">
+      <p class="pb-8 md:w-[550px] w-96">
         The needs of our high volume senders are unique. We'll set you up with
         a rapidly scalable, on-demand solution for your sending requirements.
       </p>
-      <p class="pb-8 w-[550px]">
+      <p class="pb-8 md:w-[550px] w-96">
         As with all of our customers, high volume senders benefit from SMTP's
         excellent deliverability and 20+ years of email expertise.
       </p>
@@ -176,7 +179,7 @@
       <img class="w-96" src="images/visual improvement.png" alt="" />
     </div>
   </div>
-  <div class="grid grid-cols-3 grid-rows-1 px-32 gap-20 pb-[80px]">
+  <div class="grid md:grid-cols-3 md:grid-rows-1 grid-row-1 text-center md:px-32 px-4 gap-20 pb-[80px]">
     <div>
       <p class="pb-5 text-primary-blue font-semibold">A DEDICATED PLATFORM</p>
       <p>
@@ -199,7 +202,7 @@
       </p>
     </div>
   </div>
-  <p class="text-center text-2xl px-32 w-[1100px] mx-auto pb-16">
+  <p class="text-center text-2xl md:px-32 px-4 md:w-[1100px] w-96 mx-auto pb-16">
     Each high-volume sender receives a dedicated account manager, a tailored
     IP-warming and volume ramp-up plan, and access to expert support.
   </p>
@@ -209,65 +212,65 @@
     </button>
   </div>
   <div class="h-auto bg-light-blue pb-[80px]">
-    <p class="font-extrabold py-[80px] px-32 text-center text-4xl text-primary-blue">
+    <p class="font-extrabold py-[80px] md:px-32 px-4 text-center text-4xl text-primary-blue">
       Use SMTP for all of your email sending needs.
     </p>
-    <div class="grid grid-cols-3 grid-rows-2 px-32 gap-10">
-      <div class="flex gap-4 items-start">
+    <div class="grid md:grid-cols-3 md:grid-rows-2 grid-col-1 md:px-32 px-6 gap-10">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/notification.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">NOTIFICATIONS</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blue text-center md:text-start">NOTIFICATIONS</p>
+          <p class="w-56 text-center md:text-start">
             Send follow up emails in sync with web or mobile service
             notifications.
           </p>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/man plus.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">REGISTRATION EMAILS</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blu text-center md:text-start">REGISTRATION EMAILS</p>
+          <p class="w-56 text-center md:text-start">
             Increase sign ups by reducing opt in confirmation latency and
             improve onboarding metrics.
           </p>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/man crest.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">AUTHENTICATION EMAILS</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blue text-center md:text-start">AUTHENTICATION EMAILS</p>
+          <p class="w-56 text-center md:text-start">
             Keep users safe by sending authentication emails into inboxes on
             time.
           </p>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/file record.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">ORDER CONFIRMATIONS</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blue text-center md:text-start">ORDER CONFIRMATIONS</p>
+          <p class="w-56 text-center md:text-start">
             Build brand value and credibility by sending order and billing
             details on time.
           </p>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/man locate.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">STATUS UPDATES</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blue text-center md:text-start">STATUS UPDATES</p>
+          <p class="w-56 text-center md:text-start">
             Bring users back by sending on-time status updates on their
             account and product usage.
           </p>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
+      <div class="flex md:flex-row flex-col gap-4 md:items-start items-center">
         <img class="w-16" src="images/pen write.svg" alt="" />
         <div>
-          <p class="pb-4 text-primary-blue">POLICY CHANGE EMAILS</p>
-          <p class="w-56">
+          <p class="pb-4 text-primary-blue text-center md:text-start">POLICY CHANGE EMAILS</p>
+          <p class="w-56 text-center md:text-start">
             Ensure critical policy change information emails get in front of
             your users.
           </p>
@@ -280,11 +283,11 @@
       </button>
     </div>
   </div>
-  <div class="h-auto pb-[60px]">
+  <div class="h-auto">
     <p class="text-center font-extrabold text-4xl pt-[100px] text-primary-blue">
       Why Businesses Trust SMTP
     </p>
-    <div class="grid grid-cols-3 grid-rows-2 px-32 gap-3">
+    <div class="grid md:grid-cols-3 md:grid-row-3 md:px-32 px-6 md:gap-3 gap-1">
       <div class="pt-[80px]">
         <div class="text-xl text-primary-blue pb-4">"Always delivers"</div>
         <div class="pr-10 text-lg">
@@ -338,141 +341,152 @@
           </div>
         </div>
       </div>
-      <div class="pt-[60px]">
-        There was as a marked improvement in our email deliverability with
-        SMTP, and we scaled our email marketing program from under 1 million
-        to over 5 million emails a month while preserving sender reputation.
-      </div>
-      <div class="pt-[60px]">
-        What an improved customer service experience! I’ve been with you guys
-        for several years now, and today’s help was speedy via both online
-        chat and telephone. I’m relieved and happy!
-      </div>
-      <div class="pt-[60px]">
-        Service is fast, friendly and helpful. They’re always willing to work
-        with us to resolve any issues or improve our results. They help us
-        improve our deliverability and make sure our emails get to inboxes.
-      </div>
     </div>
-    <div class="flex pb-[60px] px-32 space-x-28 -mt-10">
-      <div class="flex gap-5 items-center">
-        <img class="rounded-full" src="images/img-tim-trust-smtp-min.jpeg" alt="" />
-        <div>
-          <p class="font-bold">Tim Driver</p>
-          <p>CEO, Retirement Jobs</p>
+    <div class="grid md:grid-cols-3 md:grid-rows-1 md:px-32 px-6 md:pb-[80px] md:gap-10 pb-12">
+      <div class="flex flex-col md:gap-6">
+        <div class="pt-[60px]">
+          There was as a marked improvement in our email deliverability with
+          SMTP, and we scaled our email marketing program from under 1 million
+          to over 5 million emails a month while preserving sender reputation.
+        </div>
+        <div class="flex gap-5 items-center">
+          <img class="rounded-full" src="images/img-tim-trust-smtp-min.jpeg" alt="" />
+          <div>
+            <p class="font-bold">Tim Driver</p>
+            <p>CEO, Retirement Jobs</p>
+          </div>
         </div>
       </div>
-      <div class="flex gap-5 items-center">
-        <img class="rounded-full" src="images/img-cynthia-trust-smtp-min.jpeg" alt="" />
-        <div class="w-48">
-          <p class="font-bold">Cythia Cross</p>
-          <p>Hagen/Sinclair Research</p>
+
+      <div class="flex flex-col md:gap-12">
+        <div class="pt-[60px]">
+          What an improved customer service experience! I’ve been with you guys
+          for several years now, and today’s help was speedy via both online
+          chat and telephone. I’m relieved and happy!
+        </div>
+        <div class="flex gap-5 items-center">
+          <img class="rounded-full" src="images/img-cynthia-trust-smtp-min.jpeg" alt="" />
+          <div class="w-48">
+            <p class="font-bold">Cythia Cross</p>
+            <p>Hagen/Sinclair Research</p>
+          </div>
         </div>
       </div>
-      <div class="flex gap-5 items-center">
-        <img class="rounded-full" src="images/img-leslie-trust-smtp-min.jpeg" alt="" />
-        <div class="w-48">
-          <p class="font-bold">Leslie Stubblefield</p>
-          <p>Insurance Media Services</p>
+
+      <div class="flex flex-col md:gap-6">
+        <div class="pt-[60px]">
+          Service is fast, friendly and helpful. They’re always willing to work
+          with us to resolve any issues or improve our results. They help us
+          improve our deliverability and make sure our emails get to inboxes.
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="h-auto bg-primary-blue px-32 flex-row mx-auto">
-    <p class="pt-[80px] text-white text-center text-4xl font-extrabold">
-      Purchase an SMTP Email Relay plan
-    </p>
-    <p class="pt-[40px] pb-[40px] text-center text-button-color">
-      GET STARTED WITH 50,000 EMAILS FOR $25/ MO.
-    </p>
-    <div class="pb-[40px]">
-      <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue flex mx-auto">
-        Purchase
-      </button>
-    </div>
-    <div class="pb-[80px]">
-      <button class="flex mx-auto text-white underline underline-offset-8 decoration-4">
-        Or view all plans
-      </button>
-    </div>
-  </div>
-  <div class="flex bg-dark-blue px-32 pt-[80px] flex-col gap-20">
-    <div class="flex flex-row gap-16">
-      <div>
-        <div class="w-24">
-          <img src="images/Asset-2-smtp-allwhite.png" alt="" />
-        </div>
-        <p class="pt-7 text-white pr-10 w-80 font-sans text-sm">
-          SMTP.com is a premium email delivery and email relay solution that
-          enables you to send and track high volume emails effortlessly.
-        </p>
-        <!-- fontawesome icons-->
-        <div class="pt-10 text-3xl text-white space-x-2">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-square-x-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-      </div>
-      <div>
-        <div class="text-white">
-          <p class="pb-4">— SERVICES</p>
-          <ul class="leading-8 font-sans text-sm">
-            <li>Email delivery API</li>
-            <li>Transactional email</li>
-            <li>SMTP for developers</li>
-            <li>SMTP for marketers</li>
-            <li>Managed delivery</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="text-white">
-          <p class="pb-4">— GET STARTED</p>
-          <ul class="leading-8 font-sans text-sm">
-            <li>Pricing</li>
-            <li>Free Quote</li>
-            <li>SMTP for startups</li>
-            <li>API documentation</li>
-            <li>integrations</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="text-white">
-          <p class="pb-4">— ABOUT</p>
-          <ul class="leading-8 font-sans text-sm">
-            <li>About us</li>
-            <li>Why SMTP</li>
-            <li>Contact us</li>
-            <li>Resource center</li>
-            <li>Email Deliverability Blog</li>
-            <li>Affiliate Program</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="text-white">
-          <p class="pb-4">— LEGAL</p>
-          <ul class="leading-8 font-sans text-sm">
-            <li>Privacy policy</li>
-            <li>Terms and conditions</li>
-            <li>Partner program policy</li>
-            <li>Code of ethics and business</li>
-            <li>Anti-Spam policy</li>
-            <li>Cookie policy</li>
-          </ul>
+        <div class="flex gap-5 items-center">
+          <img class="rounded-full" src="images/img-leslie-trust-smtp-min.jpeg" alt="" />
+          <div class="w-48">
+            <p class="font-bold">Leslie Stubblefield</p>
+            <p>Insurance Media Services</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="flex text-white">
-      <p class="w-[600px]">
-        © 2017 - 2023 J2 Global Canada, Inc., a Ziff Davis company. All rights
-        reserved. SMTP.com is a trademark or registered trademark of Ziff
-        Davis.
+    <div class="h-auto bg-primary-blue md:px-32 px-6 flex-row mx-auto">
+      <p class="pt-[80px] text-white text-center text-4xl font-extrabold">
+        Purchase an SMTP Email Relay plan
       </p>
-      <p class="pl-80 mb-12">Made with ❤ in Ottawa, Canada</p>
+      <p class="pt-[40px] pb-[40px] text-center text-button-color">
+        GET STARTED WITH 50,000 EMAILS FOR $25/ MO.
+      </p>
+      <div class="pb-[40px]">
+        <button class="font-sans text-[18px] bg-button-color px-8 py-4 self-start text-primary-blue flex mx-auto">
+          Purchase
+        </button>
+      </div>
+      <div class="pb-[80px]">
+        <button class="flex mx-auto text-white underline underline-offset-8 decoration-4">
+          Or view all plans
+        </button>
+      </div>
     </div>
-  </div>
+    <div class="flex bg-dark-blue md:px-32 px-6 pt-[80px] flex-col gap-20">
+      <div class="flex md:flex-row flex-col gap-16">
+        <div>
+          <div class="w-24">
+            <img src="images/Asset-2-smtp-allwhite.png" alt="" />
+          </div>
+          <p class="pt-7 text-white pr-10 w-80 font-sans text-sm">
+            SMTP.com is a premium email delivery and email relay solution that
+            enables you to send and track high volume emails effortlessly.
+          </p>
+        
+          <div class="pt-10 text-3xl text-white space-x-2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        
+        <div class="md:flex md:gap-16  grid grid-cols-2 grid-rows-2">
+          <div>
+            <div class="text-white">
+              <p class="pb-4">— SERVICES</p>
+              <ul class="leading-8 font-sans text-sm">
+                <li>Email delivery API</li>
+                <li>Transactional email</li>
+                <li>SMTP for developers</li>
+                <li>SMTP for marketers</li>
+                <li>Managed delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="text-white">
+              <p class="pb-4">— GET STARTED</p>
+              <ul class="leading-8 font-sans text-sm">
+                <li>Pricing</li>
+                <li>Free Quote</li>
+                <li>SMTP for startups</li>
+                <li>API documentation</li>
+                <li>integrations</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="text-white">
+              <p class="pb-4">— ABOUT</p>
+              <ul class="leading-8 font-sans text-sm">
+                <li>About us</li>
+                <li>Why SMTP</li>
+                <li>Contact us</li>
+                <li>Resource center</li>
+                <li>Email Deliverability Blog</li>
+                <li>Affiliate Program</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="text-white">
+              <p class="pb-4">— LEGAL</p>
+              <ul class="leading-8 font-sans text-sm">
+                <li>Privacy policy</li>
+                <li>Terms and conditions</li>
+                <li>Partner program policy</li>
+                <li>Code of ethics and business</li>
+                <li>Anti-Spam policy</li>
+                <li>Cookie policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="md:flex text-white gap-9">
+        <p class="md:w-[600px] text-center pb-8 md:text-left">
+          © 2017 - 2023 J2 Global Canada, Inc., a Ziff Davis company. All rights
+          reserved. SMTP.com is a trademark or registered trademark of Ziff
+          Davis.
+        </p>
+        <p class="md:pl-80 mb-12 md:text-right text-center">Made with ❤ in Lagos, Nigeria</p>
+      </div>
+    </div>
 </body>
 
 </html>
